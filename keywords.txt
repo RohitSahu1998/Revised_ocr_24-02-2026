@@ -1,0 +1,7 @@
+# Keyword list for classification
+# One keyword per line. Lines starting with # are ignored.
+# Keywords are matched case-insensitively against OCR-extracted text.
+
+ROHIT
+RAMAKANT
+

@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+venv/
+.env
+
+# Project Specific
+output/
+output_results/
+output_images/
+page_images/
+input_files/*
+!input_files/.gitkeep
+
+# Excel temporary files
+~$*.xlsx
+
+# Tesseract temporary files
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db

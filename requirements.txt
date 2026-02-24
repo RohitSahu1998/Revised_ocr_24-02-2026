@@ -1,0 +1,27 @@
+# Requirements for OCR Keyword Classification System
+# Install with: pip install -r requirements.txt
+
+# ── Core Math (CRITICAL: PaddlePaddle 2.6.x requires NumPy < 2.0) ──
+numpy==1.26.4
+
+# ── OCR Engine ──────────────────────────────────────────────────────
+paddlepaddle==2.6.2
+paddleocr==2.7.3
+
+# ── Image Processing ─────────────────────────────────────────────────
+Pillow==10.3.0
+opencv-python==4.6.0.66
+
+# ── PDF Processing ───────────────────────────────────────────────────
+PyMuPDF>=1.23.0
+pikepdf>=8.0.0
+
+# ── Excel Reporting ──────────────────────────────────────────────────
+openpyxl>=3.1.0
+
+# ── PaddleOCR Dependencies ───────────────────────────────────────────
+shapely
+pyclipper
+imgaug
+protobuf==3.20.2
+msvc-runtime
